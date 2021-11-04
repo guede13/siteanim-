@@ -1,0 +1,55 @@
+body
+{
+     font-style: inherit;
+     border: lightcyan;
+     font-family:Arial, Helvetica, sans-serif;
+     text-align: left;
+     background-color: rgb(125, 234, 238);
+}
+
+h2
+{
+ color: lightskyblue;
+}
+
+.contentonepiece{
+     width: 100%;
+     display: block;
+     flex-direction: row;
+}
+
+.paragraphe{
+     width: 50%;
+}
+
+.media{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+.media2{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     
+}
+
+.media3{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+.media4{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+.media5{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+

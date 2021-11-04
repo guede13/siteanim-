@@ -1,0 +1,72 @@
+
+/*regle si la fenetre fais au plus 1024px de large*/
+div{
+    
+    width: auto;
+    font-size: 15px;
+    margin:auto;
+    text-align: justify;
+    display: flex;
+}
+
+@media all and (max-width: 1024px)
+{
+    .kurokopic{
+        width: 50%;
+        text-align: start;
+        display: none;
+    }
+    .editkuroko{
+        width: 365px;
+        height: 315px;
+    }
+    
+    .onepiecepic{
+        display: none;
+    }
+
+    .edit{
+        width: 210px; 
+        height: 175px;
+        display: flex;
+    }
+
+    .snkpic{
+        display: none;
+    }
+
+    .mhapic{
+        display: none;
+    }
+
+    .writeonepiece{ 
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .paragraphekuroko{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+    }
+    .paragraphesnk{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .paragraphemha{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .paragraphedrstone{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .drstonepic{
+        display: none;
+    }
+}
+
+
